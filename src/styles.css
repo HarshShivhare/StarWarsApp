@@ -1,0 +1,182 @@
+body {
+  background-image: url(https://wallpaperfm.com/img/original/3/5/5/16862.jpg);
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  color: #edd700;
+}
+
+.title {
+  color: #edd700;
+  font-size: 25.6px;
+  font-weight: 100;
+  text-transform: uppercase;
+  margin-bottom: 25px;
+  padding: 0 1.5rem;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+.input-group {
+  padding: 10px;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  transition: height 250ms;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  color: #5e646b;
+  font-size: 15px;
+  color: #aaa;
+  border-radius: 3px;
+  width: 400px;
+  height: 40px;
+  margin-left: 470px;
+}
+
+.login-wraper {
+  border-radius: 0;
+  padding-bottom: 10px;
+  font-family: sans-serif;
+  text-align: center;
+  width: 95%;
+  margin-top: 80px;
+}
+
+input-group.input:focus {
+  border: 1px solid #edd700;
+  line-height: 40px;
+  padding: 0 15px;
+  background-color: #484848;
+  color: #edd700;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+}
+
+.btn {
+  font-size: 18px;
+  border-radius: 3px;
+  height: 40px;
+  width: 400px;
+  text-shadow: none;
+  border: 1px solid #edd700;
+  line-height: 40px;
+  padding: 0 15px;
+  background-color: #484848;
+  color: #edd700;
+  border-radius: 3px;
+  letter-spacing: 0.06em;
+}
+
+.marg {
+  margin: 30px;
+}
+
+.logo {
+  width: 20%;
+  margin-left: -40px;
+}
+.loginChar {
+  float: left;
+  margin-right: -200px;
+  width: 300px;
+}
+.outer-loginChar {
+  margin-left: 100px;
+}
+.table-marg {
+  margin-left: 100px;
+}
+.search-btn {
+  border: none;
+  cursor: pointer;
+  width: 40px;
+  height: 40px;
+  user-select: none;
+}
+
+.search-box {
+  margin-left: 35%;
+}
+.help {
+  color: #edd700;
+  margin-left: 210px;
+  text-decoration: underline;
+  position: relative;
+  display: inline-block;
+}
+.help:hover .tooltiptext {
+  visibility: visible;
+}
+
+.help .tooltiptext {
+  visibility: hidden;
+  width: 120px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+  position: absolute;
+  z-index: 1;
+}
+
+#error {
+  color: red;
+  border-radius: 6px;
+  border: 1px solid red;
+  padding: 10px;
+  width: 30%;
+  margin-top: 20px;
+  margin-left: 476px;
+}
+.searchbar {
+  margin-top: 60px;
+  margin-bottom: 40px;
+}
+
+.logout {
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+  letter-spacing: 0.06;
+  font-size: inherit;
+}
+
+.loged-user {
+  float: left;
+  margin-left: 10px;
+  margin-top: 25px;
+  letter-spacing: 0.06em;
+  font-size: inherit;
+}
+.search-input {
+  padding-left: 10px;
+  border: 0;
+  outline: 0;
+  transition: height 250ms;
+  letter-spacing: 0.06em;
+  line-height: 1.5;
+  font-size: 30px;
+  color: #edd700;
+  width: 800px;
+  height: 70px;
+  border-bottom: 3px solid #edd700;
+  background: transparent;
+}
+.avtar {
+  margin-top: 15px;
+  float: left;
+  width: 3%;
+  margin-left: 20px;
+}
+.chart {
+  margin: 25px;
+  height: 200px;
+  width: 200px;
+  display: inline-block;
+}
+.modalContent{
+  margin-bottom: 10px;
+}
