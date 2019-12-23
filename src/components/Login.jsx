@@ -61,7 +61,7 @@ class Login extends React.Component {
               <br />
               <input
                 type="password"
-                className="input-group marg"
+                className="input-group"
                 name="password"
                 placeholder="Type your DOB for password"
                 value={this.state.password}

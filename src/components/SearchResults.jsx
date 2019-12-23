@@ -68,7 +68,7 @@ class SearchResults extends React.Component {
     return null;
   };
   renderModal = () => {
-    if (this.state.selectedPlanet !== null) {
+    if (this.state.selectedPlanet !== null && this.props.data.count) {
       const planet = this.props.data.results[this.state.selectedPlanet];
       return (
         <React.Fragment>
@@ -76,18 +76,14 @@ class SearchResults extends React.Component {
             <Modal.Title>{planet.name}</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <Container>
-              <Row>
-                <Col md={3} className="modalContent">Rotation Period : {planet.rotation_period}</Col>
-                <Col md={3} className="modalContent">Orbital Period : {planet.orbital_period}</Col>
-                <Col md={3} className="modalContent">Diameter : {planet.diameter}</Col>
-                <Col md={3} className="modalContent">Climate: {planet.climate}</Col>
-                <Col md={3} className="modalContent">Gravity : {planet.gravity}</Col>
-                <Col md={3} className="modalContent">Terrain : {planet.terrain}</Col>
-                <Col md={3} className="modalContent">Surface Water : {planet.surface_water}</Col>
-                <Col md={3} className="modalContent">Population : {planet.population}</Col>
-              </Row>
-            </Container>
+                <p>Rotation Period : {planet.rotation_period}</p>
+                <p>Orbital Period : {planet.orbital_period}</p>
+                <p>Diameter : {planet.diameter}</p>
+                <p>Climate: {planet.climate}</p>
+                <p>Gravity : {planet.gravity}</p>
+                <p>Terrain : {planet.terrain}</p>
+                <p>Surface Water : {planet.surface_water}</p>
+                <p>Population : {planet.population}</p>
           </Modal.Body>
         </React.Fragment>
       );

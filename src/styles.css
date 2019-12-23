@@ -32,7 +32,7 @@ body {
   border-radius: 3px;
   width: 400px;
   height: 40px;
-  margin-left: 470px;
+  margin-left: 550px;
 }
 
 .login-wraper {
@@ -129,7 +129,7 @@ input-group.input:focus {
   padding: 10px;
   width: 30%;
   margin-top: 20px;
-  margin-left: 476px;
+  margin-left: 546px;
 }
 .searchbar {
   margin-top: 60px;
@@ -142,6 +142,7 @@ input-group.input:focus {
   margin-top: 25px;
   letter-spacing: 0.06;
   font-size: inherit;
+  cursor: pointer;
 }
 
 .loged-user {
@@ -150,6 +151,7 @@ input-group.input:focus {
   margin-top: 25px;
   letter-spacing: 0.06em;
   font-size: inherit;
+  cursor: pointer;
 }
 .search-input {
   padding-left: 10px;
@@ -179,4 +181,15 @@ input-group.input:focus {
 }
 .modalContent{
   margin-bottom: 10px;
+}
+
+.modal-body {
+  position: relative;
+  flex: 1 1 auto;
+  padding: 1rem;
+  text-align: center;
+  font-size: x-large;
+}
+.modal-dialog {
+  padding-top: 125px;
 }
