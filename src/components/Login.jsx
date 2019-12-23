@@ -68,7 +68,7 @@ class Login extends React.Component {
                 onChange={this.handlePasswordChange}
               />
               <br />
-              <button className="btn" type="submit">
+              <button className="btn log" type="submit">
                 Sign In
               </button>
             </div>
